@@ -1,0 +1,15 @@
+{
+	"name": "0bc39bfc-bc29-493c-b714-1d13512f516d",
+	"properties": {
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"nullValue": "\\N",
+				"treatEmptyAsNull": false,
+				"firstRowAsHeader": false
+			}
+		}
+	}
+}
