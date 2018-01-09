@@ -1,3 +1,16 @@
 {
-	"name": "974c8b34-8b9a-4b40-9b08-bb80ecde66a7"
+	"name": "974c8b34-8b9a-4b40-9b08-bb80ecde66a7",
+	"properties": {
+		"activities": [
+			{
+				"name": "Spark1",
+				"type": "HDInsightSpark",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				}
+			}
+		]
+	}
 }
